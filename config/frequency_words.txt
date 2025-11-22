@@ -6,19 +6,20 @@ HarmonyOS
 比亚迪
 王传福
 
-黑神话
-冯骥
-
-影之刃零
-梁其伟
-
 A股
 美股
 日经
 
 游戏
 手游
-3A
+网游
+单机
+大作
+魂游
+
+steam
+PS5
+epic
 
 三体
 流浪地球
@@ -51,9 +52,6 @@ chatgpt
 openai
 sora
 
-claude
-Anthropic
-
 iphone
 ipad
 mac
@@ -65,8 +63,6 @@ ai
 
 自动驾驶
 
-机器人
-
 显卡
 内存
 外设
@@ -77,9 +73,6 @@ ai
 美国
 日本
 韩国
-
-芯片
-光刻机
 
 月球
 登月
