@@ -1,9 +1,6 @@
 小米
 雷军
 
-华为
-任正非
-
 京东
 刘强东
 
@@ -14,9 +11,19 @@ NBA
 内存
 CPU
 
-数码
+NVIDA
+AMD
+英伟达
+Intel
+英特尔
+
+微软
+谷歌
+Google
+
 电脑
 手机
+装机
 
 游戏
 单机
@@ -49,6 +56,5 @@ windows
 iphone
 
 github
-掘金
 java
 编程
