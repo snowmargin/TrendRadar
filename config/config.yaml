@@ -113,6 +113,14 @@ platforms:
     name: "财联社热门"
   - id: "xueqiu"
     name: "雪球"
+  - id: "cls-telegraph"
+    name: "财联社 电报"
+  - id: "cls-depth"
+    name: "财联社 深度"
+  - id: "fastbull-express"
+    name: "法布财经 快讯"
+  - id: "fastbull-news"
+    name: "法布财经 头条"
 
   # === 社交/短视频/娱乐类 ===
   - id: "weibo"
@@ -125,6 +133,9 @@ platforms:
     name: "虎扑"
   - id: "tencent-hot"
     name: "腾讯新闻 综合早报"
+  - id: "douban"
+    name: "豆瓣"
+  
 
   # === 科技类平台 ===
   - id: "ithome"
@@ -133,8 +144,6 @@ platforms:
     name: "掘金"
   - id: "github"
     name: "GitHub"
-  - id: "solidot"
-    name: "Solidot"
   - id: "v2ex"
     name: "V2EX"
   - id: "nowcoder"
