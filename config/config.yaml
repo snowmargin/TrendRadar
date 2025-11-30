@@ -111,8 +111,6 @@ platforms:
   # === 财经投资类 ===
   - id: "cls-hot"
     name: "财联社热门"
-  - id: "xueqiu"
-    name: "雪球"
   - id: "cls-telegraph"
     name: "财联社 电报"
   - id: "cls-depth"
@@ -132,10 +130,7 @@ platforms:
   - id: "hupu"
     name: "虎扑"
   - id: "tencent-hot"
-    name: "腾讯新闻 综合早报"
-  - id: "douban"
-    name: "豆瓣"
-  
+    name: "腾讯新闻热门"
 
   # === 科技类平台 ===
   - id: "ithome"
