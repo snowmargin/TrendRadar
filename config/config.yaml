@@ -194,8 +194,6 @@ platforms:
     name: "IT之家"
   - id: "juejin"
     name: "掘金"
-  - id: "github"
-    name: "GitHub"
   - id: "v2ex"
     name: "V2EX"
   - id: "nowcoder"
