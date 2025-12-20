@@ -209,3 +209,5 @@ platforms:
     name: "腾讯新闻"
   - id: "fastbull-news"
     name: "法布财经 头条"
+  - id: "36kr-renqi"
+    name: "36氪 人气榜"
