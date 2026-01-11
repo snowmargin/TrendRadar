@@ -203,10 +203,10 @@ notification:
   #   - RSS 源内容较少，希望全部展示而非只显示关键词匹配的
   # 注意：同一新闻可能同时出现在关键词匹配区和独立展示区
   standalone_display:
-    enabled: false                    # 是否启用独立展示区
+    enabled: true                    # 是否启用独立展示区
     platforms: []                     # 热榜平台 ID 列表（如 ["zhihu", "weibo"]）
-    rss_feeds: []                     # RSS 源 ID 列表（如 ["hacker-news"]）
-    max_items: 20                     # 每个源最多展示条数（0=不限制）
+    rss_feeds: ["huxiu","film4k","shouru","game-research"]                     # RSS 源 ID 列表（如 ["hacker-news"]）
+    max_items: 0                     # 每个源最多展示条数（0=不限制）
 
   # 推送渠道配置
   channels:
