@@ -24,29 +24,54 @@ app:
 # name: 显示名称（可自定义，修改后不影响运行）
 # ===============================================================
 platforms:
+  # === 综合新闻媒体类 ===
   - id: "toutiao"
     name: "今日头条"
   - id: "baidu"
     name: "百度热搜"
-  - id: "wallstreetcn-hot"
-    name: "华尔街见闻"
   - id: "thepaper"
     name: "澎湃新闻"
-  - id: "bilibili-hot-search"
-    name: "bilibili 热搜"
+  - id: "zaobao"
+    name: "联合早报"
+  - id: "kaopu"
+    name: "靠谱新闻"
+
+  # === 财经投资类 ===
   - id: "cls-hot"
     name: "财联社热门"
-  - id: "ifeng"
-    name: "凤凰网"
-  - id: "tieba"
-    name: "贴吧"
+
+  # === 社交/短视频/娱乐类 ===
   - id: "weibo"
     name: "微博"
   - id: "douyin"
     name: "抖音"
+  - id: "bilibili-hot-search"
+    name: "bilibili 热搜"
   - id: "zhihu"
     name: "知乎"
 
+  # === 科技类平台 ===
+  - id: "ithome"
+    name: "IT之家"
+  - id: "juejin"
+    name: "掘金"
+  - id: "github"
+    name: "GitHub"
+  - id: "v2ex"
+    name: "V2EX"
+  - id: "nowcoder"
+    name: "牛客网"
+  - id: "pcbeta"
+    name: "远景论坛"
+  - id: "sspai"
+    name: "少数派"
+    
+  - id: "tencent-hot"
+    name: "腾讯新闻"
+  - id: "fastbull-news"
+    name: "法布财经 头条"
+  - id: "36kr-renqi"
+    name: "36氪 人气榜"
 
 # ===============================================================
 # 3. 数据源 - RSS 订阅
@@ -122,7 +147,7 @@ rss:
 #    • 适用场景：避免重复信息干扰
 # ===============================================================
 report:
-  mode: "current"                     # 可选: daily | current | incremental
+  mode: "incremental"                     # 可选: daily | current | incremental
   display_mode: "keyword"             # 可选: keyword | platform
                                       # keyword: 按关键词分组显示（默认）
                                       # platform: 按平台/来源分组显示
