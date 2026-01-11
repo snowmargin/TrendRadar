@@ -111,9 +111,9 @@ rss:
       url: "http://www.ruanyifeng.com/blog/atom.xml"
       # max_age_days: 7               # 示例：推送7天内的文章（更新较慢的博客）
     
-    - id: "tgmeng-game"
-      name: "糖果梦-游戏"
-      url: "https://tgmeng.com/tgmeng/game/rss.xml"
+    - id: "game-research"
+      name: "游戏研究社"
+      url: "https://www.yystv.cn/rss/feed"
       enabled: true                  # 禁用
       max_age_days: 1
       
