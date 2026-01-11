@@ -101,9 +101,9 @@ rss:
   # - 正整数：覆盖全局设置，只推送此天数内的文章
   # - 0：禁用此频道的新鲜度过滤，推送所有文章
   feeds:
-    - id: "tgmeng-tech"
-      name: "糖果梦-科技"
-      url: "https://tgmeng.com/tgmeng/technology/rss.xml"
+    - id: "film4k"
+      name: "4K电影"
+      url: "https://rsshub.app/telegram/channel/dianying4K"
       max_age_days: 1               # 示例：只推送1天内的文章
 
     - id: "ruanyifeng"
