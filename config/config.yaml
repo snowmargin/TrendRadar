@@ -117,9 +117,9 @@ rss:
       enabled: true                  # 禁用
       max_age_days: 1
       
-    - id: "tgmeng-enter"
-      name: "糖果梦-娱乐"
-      url: "https://tgmeng.com/tgmeng/entertainment/rss.xml"
+    - id: "huxiu"
+      name: "虎嗅网"
+      url: "https://www.huxiu.com/rss/0.xml"
       max_age_days: 1               # 示例：只推送1天内的文章
 
       
