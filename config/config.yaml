@@ -105,21 +105,28 @@ rss:
   # - 正整数：覆盖全局设置，只推送此天数内的文章
   # - 0：禁用此频道的新鲜度过滤，推送所有文章
   feeds:
-    - id: "hacker-news"
-      name: "Hacker News"
-      url: "https://hnrss.org/frontpage"
-      # max_age_days: 1               # 示例：只推送1天内的文章
+    - id: "tgmeng-tech"
+      name: "糖果梦-科技"
+      url: "https://tgmeng.com/tgmeng/technology/rss.xml"
+      max_age_days: 1               # 示例：只推送1天内的文章
 
     - id: "ruanyifeng"
       name: "阮一峰的网络日志"
       url: "http://www.ruanyifeng.com/blog/atom.xml"
       # max_age_days: 7               # 示例：推送7天内的文章（更新较慢的博客）
     
-    - id: "yahoo-finance"
-      name: "雅虎财经"
-      url: "https://finance.yahoo.com/news/rssindex"
-      enabled: false                  # 禁用
+    - id: "tgmeng-game"
+      name: "糖果梦-游戏"
+      url: "https://tgmeng.com/tgmeng/game/rss.xml"
+      enabled: true                  # 禁用
+      max_age_days: 1
+      
+    - id: "tgmeng-enter"
+      name: "糖果梦-娱乐"
+      url: "https://tgmeng.com/tgmeng/entertainment/rss.xml"
+      max_age_days: 1               # 示例：只推送1天内的文章
 
+      
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
