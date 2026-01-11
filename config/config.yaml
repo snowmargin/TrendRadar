@@ -55,16 +55,12 @@ platforms:
     name: "IT之家"
   - id: "juejin"
     name: "掘金"
-  - id: "github"
-    name: "GitHub"
   - id: "v2ex"
     name: "V2EX"
   - id: "nowcoder"
     name: "牛客网"
   - id: "pcbeta"
     name: "远景论坛"
-  - id: "sspai"
-    name: "少数派"
     
   - id: "tencent-hot"
     name: "腾讯新闻"
@@ -154,7 +150,7 @@ rss:
 #    • 适用场景：避免重复信息干扰
 # ===============================================================
 report:
-  mode: "incremental"                     # 可选: daily | current | incremental
+  mode: "current"                     # 可选: daily | current | incremental
   display_mode: "keyword"             # 可选: keyword | platform
                                       # keyword: 按关键词分组显示（默认）
                                       # platform: 按平台/来源分组显示
@@ -303,7 +299,7 @@ storage:
 # 支持 OpenAI、Anthropic、DeepSeek等兼容接口
 # ===============================================================
 ai_analysis:
-  enabled: true                    # 是否启用 AI 分析
+  enabled: false                    # 是否启用 AI 分析
 
   # AI 提供商配置
   # 支持的提供商:
