@@ -78,7 +78,7 @@ platforms:
 # max_age_days: 可选，覆盖全局 freshness_filter.max_age_days
 # ===============================================================
 rss:
-  enabled: true                       # 是否启用 RSS 抓取
+  enabled: false                       # 是否启用 RSS 抓取
 
   # 文章新鲜度过滤配置（全局默认值）
   # 过滤掉发布时间超过指定天数的旧文章，避免同一篇文章重复出现在推送中
@@ -360,7 +360,7 @@ advanced:
     timeout: 15                       # 请求超时（秒）
     use_proxy: false                  # 是否使用代理
     proxy_url: ""                     # RSS 专属代理（留空则使用 crawler.default_proxy）
-    notification_enabled: true        # 是否启用 RSS 通知推送
+    notification_enabled: false        # 是否启用 RSS 通知推送
 
   # 排序权重（用于重新排序不同平台的热搜）
   # 合起来等于 1
